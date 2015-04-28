@@ -53,6 +53,17 @@ public:
 		return tmp;
 	}
 
+	tNode<TYPE>* add(const TYPE& value)
+	{
+		tNode<TYPE>* tmp = new tNode<TYPE>(value);
+
+		
+		tmp->father = root;
+		tmp->father->sons.add(tmp);
+
+		return tmp;
+	}
+
 	bool clear()
 	{
 		if (root != NULL)

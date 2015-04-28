@@ -90,13 +90,13 @@
     <ClInclude Include="Collider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Documents\GitHub\Practica2\Programacio2\DoubleLinkedList.h">
+    <ClInclude Include="Tree.h">
       <Filter>Tree\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Documents\GitHub\Practica2\Programacio2\Stack.h">
+    <ClInclude Include="Stack.h">
       <Filter>Tree\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Documents\GitHub\Practica2\Programacio2\Tree.h">
+    <ClInclude Include="DoubleLinkedList.h">
       <Filter>Tree\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -148,7 +148,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\Documents\GitHub\Practica2\Programacio2\CodeStyle.txt">
+    <Text Include="CodeStyle.txt">
       <Filter>Tree\Resource Files</Filter>
     </Text>
   </ItemGroup>

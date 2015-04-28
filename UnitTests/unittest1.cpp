@@ -71,7 +71,7 @@ namespace UnitTestTree
 		{
 			Tree<int> tree;
 			tNode<int>* b = tree.add(1, NULL);
-			tNode<int>* a = tree.add(2, b);
+			tNode<int>* a = tree.add(2);
 
 			Assert::AreEqual((int)1, b->value);
 			Assert::AreEqual((int)2, a->value);
